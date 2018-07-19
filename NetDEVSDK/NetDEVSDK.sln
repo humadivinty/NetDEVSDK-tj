@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetDEVSDK", "NetDEVSDK\NetDEVSDK.vcxproj", "{10F75113-3115-456B-8104-7E491C5520CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_NetDEVSDK", "Test_NetDEVSDK\Test_NetDEVSDK.vcxproj", "{7D96F9B7-775D-4DE1-B53A-65A04A90DED5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10F75113-3115-456B-8104-7E491C5520CE} = {10F75113-3115-456B-8104-7E491C5520CE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F75113-3115-456B-8104-7E491C5520CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10F75113-3115-456B-8104-7E491C5520CE}.Debug|Win32.Build.0 = Debug|Win32
+		{10F75113-3115-456B-8104-7E491C5520CE}.Release|Win32.ActiveCfg = Release|Win32
+		{10F75113-3115-456B-8104-7E491C5520CE}.Release|Win32.Build.0 = Release|Win32
+		{7D96F9B7-775D-4DE1-B53A-65A04A90DED5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D96F9B7-775D-4DE1-B53A-65A04A90DED5}.Debug|Win32.Build.0 = Debug|Win32
+		{7D96F9B7-775D-4DE1-B53A-65A04A90DED5}.Release|Win32.ActiveCfg = Release|Win32
+		{7D96F9B7-775D-4DE1-B53A-65A04A90DED5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

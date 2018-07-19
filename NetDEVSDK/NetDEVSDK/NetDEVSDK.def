@@ -1,0 +1,9 @@
+LIBRARY NetDEVSDK
+EXPORTS
+NETDEV_Init
+NETDEV_Cleanup
+NETDEV_GetSDKVersion
+NETDEV_Login
+NETDEV_Logout
+NETDEV_RealPlay
+NETDEV_StopRealPlay
